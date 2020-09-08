@@ -1,0 +1,68 @@
+{
+    "_from": "lhr-simple-cli",
+    "_id": "lhr-simple-cli@0.2.1",
+    "_inBundle": false,
+    "_integrity": "sha1-jXB9CXZxF7l076LoLRpr0OzFyqg=",
+    "_location": "/lhr-simple-cli",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "lhr-simple-cli",
+        "name": "lhr-simple-cli",
+        "escapedName": "lhr-simple-cli",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npm.taobao.org/lhr-simple-cli/download/lhr-simple-cli-0.2.1.tgz",
+    "_shasum": "8d707d09767117b974efa2e82d1a6bd0ecc5caa8",
+    "_spec": "lhr-simple-cli",
+    "author": {
+        "name": "freeany",
+        "email": "812974019@qq.com"
+    },
+    "bin": "./bin/lhr-cli.js",
+    "bugs": {
+        "url": "https://github.com/freenay/lhr-simple-cli/issues"
+    },
+    "deprecated": false,
+    "description": "a  cli",
+    "directories": {
+        "lib": "lib"
+    },
+    "bundleDependencies": false,
+    "files": [
+        "bin",
+        "lib"
+    ],
+    "dependencies": {
+        "axios": "^0.20.0",
+        "download-git-repo": "^3.0.2",
+        "fs-extra": "^9.0.1",
+        "inquirer": "^7.3.3",
+        "ora": "^5.0.0",
+        "chalk": "^4.1.0",
+        "commander": "^6.1.0"
+    },
+    "devDependencies": {},
+    "homepage": "https://github.com/freenay/lhr-simple-cli#readme",
+    "keywords": [
+        "lhr-simple-cli"
+    ],
+    "license": "MIT",
+    "main": "./bin/lhr-cli.js",
+    "name": "lhr-simple-cli",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/freenay/lhr-simple-cli.git"
+    },
+    "scripts": {
+        "lint": "standard --fix"
+    },
+    "version": "0.2.1"
+}
